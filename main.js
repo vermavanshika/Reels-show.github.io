@@ -82,3 +82,20 @@ var swiper = new Swiper(".home-slider", {
     },
     loop:true
   });
+
+// Search button click event
+document.getElementById('search-icon').addEventListener('click', function() {
+    // Prompt the user for a search query
+    var query = prompt('Enter your Google search query:');
+
+    // If the user entered a query, perform the search
+    if (query) {
+        // Create a Google search URL based on the user's query
+        var searchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+
+        // Open a new tab/window with the Google search results
+        window.open(searchUrl, '_blank');
+    }
+});
+
+

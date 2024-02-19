@@ -119,6 +119,30 @@ header .icons a:hover{
     transform: rotate(360deg);
 }
 
+/* Search Button Styles */
+#search-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333; /* Adjust the color as needed */
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+/* Add the following styles to your existing CSS file (style.css) or create a new one */
+
+/* Search container styling */
+.search-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* Search icon styling */
+#search-icon {
+    font-size: 24px;
+    color: #333; /* You can customize the color */
+}
+
+
 header .icons #menu-bars{
     display: none;
 }
@@ -422,3 +446,4 @@ header .icons #menu-bars{
 
 
 }
+
